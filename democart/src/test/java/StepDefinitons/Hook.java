@@ -20,7 +20,6 @@ public class Hook {
         homePage = new HomePage(driver);
     }
     @After
-
     public void closeBroswer(){
         driver.quit();
     }
